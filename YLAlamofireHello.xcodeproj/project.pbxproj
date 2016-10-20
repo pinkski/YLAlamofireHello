@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA6A3E0C1DB8716D00655F73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A3E0B1DB8716D00655F73 /* AppDelegate.swift */; };
+		BA6A3E0E1DB8716D00655F73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A3E0D1DB8716D00655F73 /* ViewController.swift */; };
+		BA6A3E111DB8716D00655F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6A3E0F1DB8716D00655F73 /* Main.storyboard */; };
+		BA6A3E131DB8716D00655F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6A3E121DB8716D00655F73 /* Assets.xcassets */; };
+		BA6A3E161DB8716D00655F73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6A3E141DB8716D00655F73 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA6A3E081DB8716D00655F73 /* YLAlamofireHello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLAlamofireHello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6A3E0B1DB8716D00655F73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA6A3E0D1DB8716D00655F73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA6A3E101DB8716D00655F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA6A3E121DB8716D00655F73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA6A3E151DB8716D00655F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA6A3E171DB8716D00655F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA6A3E051DB8716D00655F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA6A3DFF1DB8716D00655F73 = {
+			isa = PBXGroup;
+			children = (
+				BA6A3E0A1DB8716D00655F73 /* YLAlamofireHello */,
+				BA6A3E091DB8716D00655F73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA6A3E091DB8716D00655F73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A3E081DB8716D00655F73 /* YLAlamofireHello.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA6A3E0A1DB8716D00655F73 /* YLAlamofireHello */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A3E0B1DB8716D00655F73 /* AppDelegate.swift */,
+				BA6A3E0D1DB8716D00655F73 /* ViewController.swift */,
+				BA6A3E0F1DB8716D00655F73 /* Main.storyboard */,
+				BA6A3E121DB8716D00655F73 /* Assets.xcassets */,
+				BA6A3E141DB8716D00655F73 /* LaunchScreen.storyboard */,
+				BA6A3E171DB8716D00655F73 /* Info.plist */,
+			);
+			path = YLAlamofireHello;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA6A3E071DB8716D00655F73 /* YLAlamofireHello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6A3E1A1DB8716D00655F73 /* Build configuration list for PBXNativeTarget "YLAlamofireHello" */;
+			buildPhases = (
+				BA6A3E041DB8716D00655F73 /* Sources */,
+				BA6A3E051DB8716D00655F73 /* Frameworks */,
+				BA6A3E061DB8716D00655F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLAlamofireHello;
+			productName = YLAlamofireHello;
+			productReference = BA6A3E081DB8716D00655F73 /* YLAlamofireHello.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA6A3E001DB8716D00655F73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = yolynn;
+				TargetAttributes = {
+					BA6A3E071DB8716D00655F73 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA6A3E031DB8716D00655F73 /* Build configuration list for PBXProject "YLAlamofireHello" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA6A3DFF1DB8716D00655F73;
+			productRefGroup = BA6A3E091DB8716D00655F73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA6A3E071DB8716D00655F73 /* YLAlamofireHello */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA6A3E061DB8716D00655F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6A3E161DB8716D00655F73 /* LaunchScreen.storyboard in Resources */,
+				BA6A3E131DB8716D00655F73 /* Assets.xcassets in Resources */,
+				BA6A3E111DB8716D00655F73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA6A3E041DB8716D00655F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6A3E0E1DB8716D00655F73 /* ViewController.swift in Sources */,
+				BA6A3E0C1DB8716D00655F73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA6A3E0F1DB8716D00655F73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA6A3E101DB8716D00655F73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA6A3E141DB8716D00655F73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA6A3E151DB8716D00655F73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA6A3E181DB8716D00655F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA6A3E191DB8716D00655F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA6A3E1B1DB8716D00655F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLAlamofireHello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yolynn.YLAlamofireHello;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA6A3E1C1DB8716D00655F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLAlamofireHello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yolynn.YLAlamofireHello;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA6A3E031DB8716D00655F73 /* Build configuration list for PBXProject "YLAlamofireHello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6A3E181DB8716D00655F73 /* Debug */,
+				BA6A3E191DB8716D00655F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6A3E1A1DB8716D00655F73 /* Build configuration list for PBXNativeTarget "YLAlamofireHello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6A3E1B1DB8716D00655F73 /* Debug */,
+				BA6A3E1C1DB8716D00655F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA6A3E001DB8716D00655F73 /* Project object */;
+}
